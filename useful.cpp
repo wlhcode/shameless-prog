@@ -40,7 +40,6 @@ void simple_calc(){
 	cout<<endl<<"enter return to return to menu"<<endl;
 	while(getline(cin,s)){
 		if(s=="return") return;
-		cout<<s<<endl;
 		s.clear();
 	}
 }
